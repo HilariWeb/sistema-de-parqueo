@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed9498a4-d790-449b-975a-47a1ce43bcca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bd_tables/tb_tickets.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/controller_buscar_cliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/controller_buscar_cliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal.php" beforeDir="false" afterPath="$PROJECT_DIR$/principal.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +40,9 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="html" value="1" />
-          <entry key="php" value="140" />
+          <entry key="php" value="143" />
           <entry key="png" value="2" />
-          <entry key="sql" value="16" />
+          <entry key="sql" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -49,20 +50,20 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="2" />
-          <entry key="PHP" value="140" />
-          <entry key="SQL" value="16" />
+          <entry key="PHP" value="143" />
+          <entry key="SQL" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="13420" />
+          <entry key="php" value="13809" />
           <entry key="sql" value="545" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="100" />
-          <entry key="PHP" value="13311" />
+          <entry key="PHP" value="13700" />
           <entry key="SQL" value="554" />
         </counts>
       </usages-collector>
@@ -73,11 +74,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bd_tables/tb_tickets.sql">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientes/controller_buscar_cliente.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="544">
+              <caret line="59" column="83" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/principal.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="152" column="101" lean-forward="true" selection-start-line="152" selection-start-column="101" selection-end-line="152" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -124,8 +134,6 @@
         <option value="$PROJECT_DIR$/bd_tables/tb_clientes.sql" />
         <option value="$PROJECT_DIR$/layout/admin/footer_link.php" />
         <option value="$PROJECT_DIR$/layout/admin/head.php" />
-        <option value="$PROJECT_DIR$/clientes/controller_buscar_cliente.php" />
-        <option value="$PROJECT_DIR$/principal.php" />
         <option value="$PROJECT_DIR$/tcpdf.php" />
         <option value="$PROJECT_DIR$/layout/admin/menu.php" />
         <option value="$PROJECT_DIR$/bd_tables/tb_informaciones.sql" />
@@ -139,6 +147,8 @@
         <option value="$PROJECT_DIR$/pruebas/tcpdf.php" />
         <option value="$PROJECT_DIR$/bd_tables/tb_roles.sql" />
         <option value="$PROJECT_DIR$/bd_tables/tb_tickets.sql" />
+        <option value="$PROJECT_DIR$/clientes/controller_buscar_cliente.php" />
+        <option value="$PROJECT_DIR$/principal.php" />
       </list>
     </option>
   </component>
@@ -175,7 +185,7 @@
             <path>
               <item name="www.sisparqueo.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="www.sisparqueo.com" type="462c0819:PsiDirectoryNode" />
-              <item name="bd_tables" type="462c0819:PsiDirectoryNode" />
+              <item name="clientes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,12 +251,12 @@
       <workItem from="1664196631701" duration="13239000" />
       <workItem from="1664371266736" duration="734000" />
       <workItem from="1664381192637" duration="5681000" />
-      <workItem from="1664457856407" duration="6687000" />
+      <workItem from="1664457856407" duration="8428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135814000" />
+    <option name="totallyTimeSpent" value="137555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -452,13 +462,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tcpdf.php" />
-    <entry file="file://$PROJECT_DIR$/clientes/controller_buscar_cliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templeates/TCPDF-main/examples/example_002.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -506,13 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/principal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="88" column="88" selection-start-line="88" selection-start-column="88" selection-end-line="88" selection-end-column="88" />
         </state>
       </provider>
     </entry>
@@ -609,8 +605,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bd_tables/tb_tickets.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientes/controller_buscar_cliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="59" column="83" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/principal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="152" column="101" lean-forward="true" selection-start-line="152" selection-start-column="101" selection-end-line="152" selection-end-column="101" />
         </state>
       </provider>
     </entry>
