@@ -172,8 +172,13 @@ include('layout/admin/datos_usuario_sesion.php');
                                                                                    $('#respuesta_ticket').html(datos);
                                                                                });
 
-                                                                               var url_2 = 'tickets/controller_registrar_ticket.php';
-                                                                               $.get(url_2,{placa:placa,nombre_cliente:nombre_cliente,nit_ci:nit_ci,fecha_ingreso:fecha_ingreso,hora_ingreso:hora_ingreso,cuviculo:cuviculo,user_session:user_session},function (datos) {
+                                                                               var url_2 = 'clientes/controller_registrar_clientes.php';
+                                                                               $.get(url_2,{nombre_cliente:nombre_cliente,nit_ci:nit_ci,placa:placa},function (datos) {
+                                                                                   $('#respuesta_ticket').html(datos);
+                                                                               });
+
+                                                                               var url_3 = 'tickets/controller_registrar_ticket.php';
+                                                                               $.get(url_3,{placa:placa,nombre_cliente:nombre_cliente,nit_ci:nit_ci,fecha_ingreso:fecha_ingreso,hora_ingreso:hora_ingreso,cuviculo:cuviculo,user_session:user_session},function (datos) {
                                                                                    $('#respuesta_ticket').html(datos);
                                                                                });
 

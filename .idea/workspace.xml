@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed9498a4-d790-449b-975a-47a1ce43bcca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/parqueo/controller_cambiar_estado_ocupado.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/generar_ticket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/controller_registrar_clientes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/principal.php" beforeDir="false" afterPath="$PROJECT_DIR$/principal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tickets/controller_registrar_ticket.php" beforeDir="false" afterPath="$PROJECT_DIR$/tickets/controller_registrar_ticket.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +40,7 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="html" value="1" />
-          <entry key="php" value="160" />
+          <entry key="php" value="162" />
           <entry key="png" value="2" />
           <entry key="sql" value="20" />
         </counts>
@@ -52,20 +50,20 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="2" />
-          <entry key="PHP" value="160" />
+          <entry key="PHP" value="162" />
           <entry key="SQL" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="14997" />
+          <entry key="php" value="15067" />
           <entry key="sql" value="546" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="100" />
-          <entry key="PHP" value="14888" />
+          <entry key="PHP" value="14958" />
           <entry key="SQL" value="555" />
         </counts>
       </usages-collector>
@@ -76,11 +74,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/principal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="167" column="80" lean-forward="true" selection-start-line="167" selection-start-column="80" selection-end-line="167" selection-end-column="80" />
+            <state relative-caret-position="436">
+              <caret line="175" column="141" selection-start-line="175" selection-start-column="136" selection-end-line="175" selection-end-column="141" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clientes/controller_registrar_clientes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -98,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/tickets/controller_registrar_ticket.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -162,8 +169,9 @@
         <option value="$PROJECT_DIR$/tickets/controller_registrar_ticket.php" />
         <option value="$PROJECT_DIR$/tickets/generar_ticket.php" />
         <option value="$PROJECT_DIR$/parqueo/controller_cambiar_estado_del_vehiculo.php" />
-        <option value="$PROJECT_DIR$/principal.php" />
         <option value="$PROJECT_DIR$/parqueo/controller_cambiar_estado_ocupado.php" />
+        <option value="$PROJECT_DIR$/principal.php" />
+        <option value="$PROJECT_DIR$/clientes/controller_registrar_clientes.php" />
       </list>
     </option>
   </component>
@@ -196,6 +204,11 @@
             <path>
               <item name="www.sisparqueo.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="www.sisparqueo.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www.sisparqueo.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www.sisparqueo.com" type="462c0819:PsiDirectoryNode" />
+              <item name="clientes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="www.sisparqueo.com" type="b2602c69:ProjectViewProjectNode" />
@@ -277,12 +290,12 @@
       <workItem from="1664371266736" duration="734000" />
       <workItem from="1664381192637" duration="5681000" />
       <workItem from="1664457856407" duration="18869000" />
-      <workItem from="1665067304751" duration="1347000" />
+      <workItem from="1665067304751" duration="2986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149343000" />
+    <option name="totallyTimeSpent" value="150982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -316,13 +329,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/usuarios/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="55" column="73" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usuarios/delete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
@@ -482,13 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parqueo/controller_create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" column="9" selection-start-line="32" selection-start-column="4" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templeates/TCPDF-main/examples/example_006.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -628,7 +627,7 @@
     <entry file="file://$PROJECT_DIR$/tickets/controller_registrar_ticket.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -646,10 +645,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/parqueo/controller_create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/principal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="167" column="80" lean-forward="true" selection-start-line="167" selection-start-column="80" selection-end-line="167" selection-end-column="80" />
+        <state relative-caret-position="436">
+          <caret line="175" column="141" selection-start-line="175" selection-start-column="136" selection-end-line="175" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientes/controller_registrar_clientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
