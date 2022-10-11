@@ -280,18 +280,14 @@ include('layout/admin/datos_usuario_sesion.php');
 
                                                                 </div>
                                                                 <div class="modal-footer">
-                                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                                                                    <button type="button" class="btn btn-primary">Volver a Imprimir</button>
-                                                                    <button type="button" class="btn btn-danger">Facturar</button>
+                                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+                                                                    <a href="tickets/controller_cancelar_ticket.php?id=<?php echo $id_ticket;?>&&cuviculo=<?php echo $cuviculo;?>" class="btn btn-danger">Cancelar ticket</a>
+                                                                    <a href="tickets/reimprimir_ticket.php?id=<?php echo $id_ticket;?>" class="btn btn-primary">Volver a Imprimir</a>
+                                                                    <button type="button" class="btn btn-success">Facturar</button>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <script>
-                                                        $('#btn_ocupado<?php echo $id_map;?>').click(function () {
-
-                                                        });
-                                                    </script>
                                                     <p><?php echo $estado_espacio;?></p>
                                                 </center>
                                             </div>
