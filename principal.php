@@ -4,6 +4,32 @@ include('app/config.php');
 include('layout/admin/datos_usuario_sesion.php');
 
 
+//recuperar el id de la informacion
+$query_informacions = $pdo->prepare("SELECT * FROM tb_informaciones WHERE estado = '1' ");
+$query_informacions->execute();
+$informacions = $query_informacions->fetchAll(PDO::FETCH_ASSOC);
+foreach($informacions as $informacion){
+    $id_informacion = $informacion['id_informacion'];
+}
+/////////////////////////////////////////////
+
+
+
+//recuperar el el numero de la factura
+$contador_del_nro_de_factura = 0;
+$query_facturaciones = $pdo->prepare("SELECT * FROM tb_facturaciones WHERE estado = '1' ");
+$query_facturaciones->execute();
+$facturaciones = $query_facturaciones->fetchAll(PDO::FETCH_ASSOC);
+foreach($facturaciones as $facturacione){
+    $contador_del_nro_de_factura = $contador_del_nro_de_factura +1;
+}
+$contador_del_nro_de_factura = $contador_del_nro_de_factura +1;
+/////////////////////////////////////////////
+
+
+
+
+
 
     //echo "exite sesion";
     ?>
@@ -283,7 +309,37 @@ include('layout/admin/datos_usuario_sesion.php');
                                                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
                                                                     <a href="tickets/controller_cancelar_ticket.php?id=<?php echo $id_ticket;?>&&cuviculo=<?php echo $cuviculo;?>" class="btn btn-danger">Cancelar ticket</a>
                                                                     <a href="tickets/reimprimir_ticket.php?id=<?php echo $id_ticket;?>" class="btn btn-primary">Volver a Imprimir</a>
-                                                                    <button type="button" class="btn btn-success">Facturar</button>
+                                                                    <button type="button" class="btn btn-success" id="btn_facturar<?php echo $id_map;?>">Facturar</button>
+                                                                    <?php
+                                                                    ///////////////////// recupera el id del cliente
+                                                                    $query_datos_cliente_factura = $pdo->prepare("SELECT * FROM tb_clientes WHERE placa_auto = '$placa_auto' AND estado = '1' ");
+                                                                    $query_datos_cliente_factura->execute();
+                                                                    $datos_clientes_facturas = $query_datos_cliente_factura->fetchAll(PDO::FETCH_ASSOC);
+                                                                    foreach($datos_clientes_facturas as $datos_clientes_factura){
+                                                                        $id_cliente_facturacion = $datos_clientes_factura['id_cliente'];
+                                                                    }
+                                                                    /////////////////////////////////////////////////////////////////7
+                                                                    ?>
+                                                                    <script>
+                                                                        $('#btn_facturar<?php echo $id_map;?>').click(function () {
+                                                                            var id_informacion = "<?php echo $id_informacion; ?>";
+                                                                            var nro_factura = "<?php echo $contador_del_nro_de_factura; ?>";
+                                                                            var id_cliente = "<?php echo $id_cliente_facturacion;?>";
+                                                                            var fecha_ingreso = "<?php echo $fecha_ingreso; ?>";
+                                                                            var hora_ingreso = "<?php echo $hora_ingreso; ?>";
+                                                                            var cuviculo = "<?php echo $cuviculo; ?>";
+                                                                            var user_sesion = "<?php echo $user_sesion; ?>";
+
+                                                                            var url_4 = 'facturacion/controller_registrar_factura.php';
+                                                                            $.get(url_4,{id_informacion:id_informacion,nro_factura:nro_factura,id_cliente:id_cliente,fecha_ingreso:fecha_ingreso,hora_ingreso:hora_ingreso,cuviculo:cuviculo,user_sesion:user_sesion},function (datos) {
+                                                                                $('#respuesta_factura<?php echo $id_map;?>').html(datos);
+                                                                            });
+
+                                                                        });
+                                                                    </script>
+                                                                </div>
+                                                                <div id="respuesta_factura<?php echo $id_map;?>">
+
                                                                 </div>
                                                             </div>
                                                         </div>
