@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed9498a4-d790-449b-975a-47a1ce43bcca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bd_tables/tb_facturaciones.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facturacion/controller_registrar_factura.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bd_tables/tb_precios.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/precios/controller_create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/precios/controller_update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/precios/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/precios/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/precios/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bd_tables/tb_clientes.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bd_tables/tb_clientes.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bd_tables/tb_tickets.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bd_tables/tb_tickets.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bd_tables/tb_usuarios.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bd_tables/tb_usuarios.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facturacion/modelo_factura.php" beforeDir="false" afterPath="$PROJECT_DIR$/facturacion/modelo_factura.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal.php" beforeDir="false" afterPath="$PROJECT_DIR$/principal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/admin/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/layout/admin/menu.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,19 +38,20 @@
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
           <entry key="html" value="1" />
-          <entry key="php" value="200" />
+          <entry key="php" value="217" />
           <entry key="png" value="2" />
-          <entry key="sql" value="37" />
+          <entry key="sql" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -58,21 +59,21 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="2" />
-          <entry key="PHP" value="200" />
-          <entry key="SQL" value="37" />
+          <entry key="PHP" value="217" />
+          <entry key="SQL" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="20701" />
-          <entry key="sql" value="760" />
+          <entry key="php" value="21812" />
+          <entry key="sql" value="806" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="170" />
-          <entry key="PHP" value="20522" />
-          <entry key="SQL" value="769" />
+          <entry key="PHP" value="21633" />
+          <entry key="SQL" value="815" />
         </counts>
       </usages-collector>
     </session>
@@ -81,70 +82,62 @@
     <favorites_list name="www.sisparqueo.com" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7326733">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/principal.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="330" column="87" lean-forward="true" selection-start-line="330" selection-start-column="79" selection-end-line="330" selection-end-column="87" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/facturacion/controller_registrar_factura.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="64" column="2" lean-forward="true" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/roles/controller_asignar.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tickets/generar_ticket.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/bd_tables/tb_facturaciones.sql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="10" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bd_tables/tb_clientes.sql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/precios/controller_update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/precios/update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="99" column="59" lean-forward="true" selection-start-line="99" selection-start-column="59" selection-end-line="99" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/precios/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1309">
+              <caret line="77" column="30" selection-end-line="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/precios/controller_create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="8" selection-start-line="8" selection-end-line="35" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bd_tables/tb_precios.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/precios/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="52" column="70" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="52" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -158,12 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/usuarios/controller_delete.php" />
-        <option value="$PROJECT_DIR$/usuarios/index.php" />
-        <option value="$PROJECT_DIR$/roles/controller_create.php" />
-        <option value="$PROJECT_DIR$/usuarios/create.php" />
-        <option value="$PROJECT_DIR$/usuarios/update.php" />
-        <option value="$PROJECT_DIR$/usuarios/delete.php" />
         <option value="$PROJECT_DIR$/roles/create.php" />
         <option value="$PROJECT_DIR$/roles/delete.php" />
         <option value="$PROJECT_DIR$/roles/controller_delete.php" />
@@ -198,7 +185,6 @@
         <option value="$PROJECT_DIR$/clientes/controller_buscar_cliente.php" />
         <option value="$PROJECT_DIR$/tickets/controller_registrar_ticket.php" />
         <option value="$PROJECT_DIR$/clientes/controller_registrar_clientes.php" />
-        <option value="$PROJECT_DIR$/layout/admin/menu.php" />
         <option value="$PROJECT_DIR$/clientes/index.php" />
         <option value="$PROJECT_DIR$/clientes/update.php" />
         <option value="$PROJECT_DIR$/clientes/controller_update.php" />
@@ -209,6 +195,13 @@
         <option value="$PROJECT_DIR$/bd_tables/tb_usuarios.sql" />
         <option value="$PROJECT_DIR$/bd_tables/tb_tickets.sql" />
         <option value="$PROJECT_DIR$/facturacion/controller_registrar_factura.php" />
+        <option value="$PROJECT_DIR$/bd_tables/tb_precios.sql" />
+        <option value="$PROJECT_DIR$/precios/index.php" />
+        <option value="$PROJECT_DIR$/layout/admin/menu.php" />
+        <option value="$PROJECT_DIR$/precios/create.php" />
+        <option value="$PROJECT_DIR$/precios/controller_create.php" />
+        <option value="$PROJECT_DIR$/precios/update.php" />
+        <option value="$PROJECT_DIR$/precios/controller_update.php" />
       </list>
     </option>
   </component>
@@ -250,12 +243,7 @@
             <path>
               <item name="www.sisparqueo.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="www.sisparqueo.com" type="462c0819:PsiDirectoryNode" />
-              <item name="clientes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www.sisparqueo.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www.sisparqueo.com" type="462c0819:PsiDirectoryNode" />
-              <item name="facturacion" type="462c0819:PsiDirectoryNode" />
+              <item name="precios" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="www.sisparqueo.com" type="b2602c69:ProjectViewProjectNode" />
@@ -265,7 +253,7 @@
             <path>
               <item name="www.sisparqueo.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="www.sisparqueo.com" type="462c0819:PsiDirectoryNode" />
-              <item name="tickets" type="462c0819:PsiDirectoryNode" />
+              <item name="usuarios" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -338,18 +326,19 @@
       <workItem from="1665671578073" duration="1145000" />
       <workItem from="1665718742716" duration="8684000" />
       <workItem from="1665848507599" duration="594000" />
-      <workItem from="1666281908435" duration="9273000" />
+      <workItem from="1666281908435" duration="12868000" />
+      <workItem from="1666351714840" duration="940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192189000" />
+    <option name="totallyTimeSpent" value="196724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5432624" visible="true" weight="0.18657719" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5432624" visible="true" weight="0.18926175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.45673758" side_tool="true" weight="0.14697987" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -377,50 +366,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/layout/admin/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/admin/footer_link.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/roles/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="47" column="26" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="47" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templeates/TCPDF-main/examples/example_001.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="24" lean-forward="true" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tcpdf.php" />
-    <entry file="file://$PROJECT_DIR$/app/templeates/TCPDF-main/examples/example_002.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuraciones/index.php" />
-    <entry file="file://$PROJECT_DIR$/usuarios/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="32" column="51" lean-forward="true" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templeates/TCPDF-main/examples/example_006.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -460,13 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usuarios/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="82" column="15" lean-forward="true" selection-start-line="79" selection-start-column="11" selection-end-line="82" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -558,13 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usuarios/controller_update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" selection-start-line="8" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clientes/controller_update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -576,20 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="131" column="15" lean-forward="true" selection-start-line="128" selection-start-column="11" selection-end-line="131" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientes/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="52" column="79" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="52" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/admin/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="212" column="74" selection-start-line="212" selection-start-column="74" selection-end-line="212" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -614,20 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tickets/generar_ticket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bd_tables/tb_roles.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bd_tables/tb_mapeos.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -642,13 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/roles/controller_asignar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bd_tables/tb_usuarios.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -656,24 +552,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bd_tables/tb_clientes.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layout/admin/datos_usuario_sesion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bd_tables/tb_tickets.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -698,6 +580,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/facturacion/controller_registrar_factura.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="54" column="42" lean-forward="true" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/controller_asignar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/generar_ticket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bd_tables/tb_facturaciones.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -705,10 +608,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/facturacion/controller_registrar_factura.php">
+    <entry file="file://$PROJECT_DIR$/bd_tables/tb_clientes.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="54" column="21" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bd_tables/tb_tickets.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bd_tables/tb_roles.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/admin/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="261" column="72" selection-start-line="261" selection-start-column="72" selection-end-line="261" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/asignar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usuarios/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="82" column="15" lean-forward="true" selection-start-line="79" selection-start-column="11" selection-end-line="82" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/controller_create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/precios/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="30" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bd_tables/tb_precios.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/precios/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="52" column="70" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="52" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/precios/controller_create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usuarios/controller_update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" selection-start-line="20" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/precios/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="99" column="59" lean-forward="true" selection-start-line="99" selection-start-column="59" selection-end-line="99" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/precios/controller_update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="64" column="2" lean-forward="true" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
         </state>
       </provider>
     </entry>
