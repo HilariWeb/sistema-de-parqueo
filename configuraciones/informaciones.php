@@ -17,8 +17,36 @@ include('../layout/admin/datos_usuario_sesion.php');
             <h2>Listado de Informaciones</h2>
 
             <br>
+            <script>
+                $(document).ready(function() {
+                    $('#table_id').DataTable( {
+                        "pageLength": 5,
+                        "language": {
+                            "emptyTable": "No hay información",
+                            "info": "Mostrando _START_ a _END_ de _TOTAL_ Informaciones",
+                            "infoEmpty": "Mostrando 0 a 0 de 0 Informaciones",
+                            "infoFiltered": "(Filtrado de _MAX_ total Informaciones)",
+                            "infoPostFix": "",
+                            "thousands": ",",
+                            "lengthMenu": "Mostrar _MENU_ Informaciones",
+                            "loadingRecords": "Cargando...",
+                            "processing": "Procesando...",
+                            "search": "Buscador:",
+                            "zeroRecords": "Sin resultados encontrados",
+                            "paginate": {
+                                "first": "Primero",
+                                "last": "Ultimo",
+                                "next": "Siguiente",
+                                "previous": "Anterior"
+                            }
+                        }
+                    });
+                } );
+            </script>
+
             <a href="create_informaciones.php" class="btn btn-primary">Registrar nuevo</a> <br><br>
-            <table class="table table-bordered table-sm table-striped">
+            <table id="table_id" class="table table-bordered table-sm table-striped">
+                <thead>
                 <th><center>Nro</center></th>
                 <th>Nombre del parqueo</th>
                 <th>Actividad de la Empresa</th>
@@ -29,7 +57,8 @@ include('../layout/admin/datos_usuario_sesion.php');
                 <th>Departamento o ciudad</th>
                 <th>País</th>
                 <th><center>Acción</center></th>
-
+                </thead>
+                <tbody>
                 <?php
                 $contador = 0;
                 $query_informacions = $pdo->prepare("SELECT * FROM tb_informaciones WHERE estado = '1' ");
@@ -67,7 +96,7 @@ include('../layout/admin/datos_usuario_sesion.php');
                     <?php
                 }
                 ?>
-
+                </tbody>
             </table>
 
         </div>

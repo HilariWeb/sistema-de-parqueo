@@ -31,15 +31,44 @@ include('../layout/admin/datos_usuario_sesion.php');
 
                         </div>
 
+                        <script>
+                            $(document).ready(function() {
+                                $('#table_id').DataTable( {
+                                    "pageLength": 5,
+                                    "language": {
+                                        "emptyTable": "No hay información",
+                                        "info": "Mostrando _START_ a _END_ de _TOTAL_ Precios",
+                                        "infoEmpty": "Mostrando 0 a 0 de 0 Precios",
+                                        "infoFiltered": "(Filtrado de _MAX_ total Precios)",
+                                        "infoPostFix": "",
+                                        "thousands": ",",
+                                        "lengthMenu": "Mostrar _MENU_ Precios",
+                                        "loadingRecords": "Cargando...",
+                                        "processing": "Procesando...",
+                                        "search": "Buscador:",
+                                        "zeroRecords": "Sin resultados encontrados",
+                                        "paginate": {
+                                            "first": "Primero",
+                                            "last": "Ultimo",
+                                            "next": "Siguiente",
+                                            "previous": "Anterior"
+                                        }
+                                    }
+                                });
+                            } );
+                        </script>
+
                         <div class="card-body" style="display: block;">
 
-                            <table class="table table-bordered table-sm table-striped">
+                            <table id="table_id" class="table table-bordered table-sm table-striped">
+                                <thead>
                                 <th><center>Nro</center></th>
                                 <th>Cantidad</th>
                                 <th>Detalle</th>
                                 <th>Precio</th>
                                 <th><center>Acción</center></th>
-
+                                </thead>
+                                <tbody>
                                 <?php
                                 $contador_precio = 0;
                                 $query_precios = $pdo->prepare("SELECT * FROM tb_precios WHERE estado = '1'  ");
@@ -66,7 +95,7 @@ include('../layout/admin/datos_usuario_sesion.php');
                                     <?php
                                 }
                                 ?>
-
+                                </tbody>
                             </table>
 
                         </div>
