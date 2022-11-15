@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed9498a4-d790-449b-975a-47a1ce43bcca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/clientes/generar-reporte.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuraciones/generar-reporte.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parqueo/generar-reporte.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/precios/generar-reporte.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/generar-reporte.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/generar-reporte.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuraciones/informaciones.php" beforeDir="false" afterPath="$PROJECT_DIR$/configuraciones/informaciones.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parqueo/mapeo-de-vehiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/parqueo/mapeo-de-vehiculos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/precios/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/precios/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/roles/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/admin/datos_usuario_sesion.php" beforeDir="false" afterPath="$PROJECT_DIR$/layout/admin/datos_usuario_sesion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/admin/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/layout/admin/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/controller_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login/controller_login.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +49,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
           <entry key="jpg" value="3" />
-          <entry key="php" value="292" />
+          <entry key="php" value="300" />
           <entry key="png" value="3" />
           <entry key="sql" value="46" />
         </counts>
@@ -67,15 +60,15 @@
         <counts>
           <entry key="Blade" value="1" />
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="Image" value="6" />
-          <entry key="PHP" value="291" />
+          <entry key="PHP" value="299" />
           <entry key="SQL" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="26667" />
+          <entry key="php" value="27173" />
           <entry key="sql" value="806" />
         </counts>
       </usages-collector>
@@ -83,7 +76,7 @@
         <counts>
           <entry key="Blade" value="23" />
           <entry key="HTML" value="194" />
-          <entry key="PHP" value="26441" />
+          <entry key="PHP" value="26947" />
           <entry key="SQL" value="815" />
         </counts>
       </usages-collector>
@@ -94,28 +87,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/precios/index.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/layout/admin/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="81" selection-end-column="70" />
+            <state relative-caret-position="623">
+              <caret line="396" column="25" selection-start-line="396" selection-start-column="25" selection-end-line="396" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/precios/generar-reporte.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout/admin/datos_usuario_sesion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="123" column="44" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#2;n#tr#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -134,10 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/layout/admin/footer_link.php" />
-        <option value="$PROJECT_DIR$/tcpdf.php" />
-        <option value="$PROJECT_DIR$/bd_tables/tb_informaciones.sql" />
-        <option value="$PROJECT_DIR$/configuraciones/controller_create_informaciones.php" />
         <option value="$PROJECT_DIR$/configuraciones/controller_update_informaciones.php" />
         <option value="$PROJECT_DIR$/configuraciones/update_configuraciones.php" />
         <option value="$PROJECT_DIR$/configuraciones/delete_configuraciones.php" />
@@ -160,7 +141,6 @@
         <option value="$PROJECT_DIR$/bd_tables/tb_usuarios.sql" />
         <option value="$PROJECT_DIR$/bd_tables/tb_tickets.sql" />
         <option value="$PROJECT_DIR$/bd_tables/tb_precios.sql" />
-        <option value="$PROJECT_DIR$/layout/admin/menu.php" />
         <option value="$PROJECT_DIR$/precios/create.php" />
         <option value="$PROJECT_DIR$/precios/controller_create.php" />
         <option value="$PROJECT_DIR$/precios/update.php" />
@@ -185,6 +165,11 @@
         <option value="$PROJECT_DIR$/clientes/generar-reporte.php" />
         <option value="$PROJECT_DIR$/precios/index.php" />
         <option value="$PROJECT_DIR$/precios/generar-reporte.php" />
+        <option value="$PROJECT_DIR$/layout/admin/datos_usuario_sesion.php" />
+        <option value="$PROJECT_DIR$/login/index.php" />
+        <option value="$PROJECT_DIR$/login/controller_login.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/layout/admin/menu.php" />
       </list>
     </option>
   </component>
@@ -221,32 +206,18 @@
             <path>
               <item name="www.sisparqueo.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="www.sisparqueo.com" type="462c0819:PsiDirectoryNode" />
-              <item name="clientes" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="www.sisparqueo.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="www.sisparqueo.com" type="462c0819:PsiDirectoryNode" />
-              <item name="configuraciones" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="www.sisparqueo.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="www.sisparqueo.com" type="462c0819:PsiDirectoryNode" />
-              <item name="parqueo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www.sisparqueo.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www.sisparqueo.com" type="462c0819:PsiDirectoryNode" />
-              <item name="precios" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www.sisparqueo.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www.sisparqueo.com" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www.sisparqueo.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www.sisparqueo.com" type="462c0819:PsiDirectoryNode" />
-              <item name="usuarios" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,12 +304,12 @@
       <workItem from="1667677866806" duration="23721000" />
       <workItem from="1667937628988" duration="2292000" />
       <workItem from="1668085523282" duration="594000" />
-      <workItem from="1668385483365" duration="9707000" />
+      <workItem from="1668385483365" duration="11809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254380000" />
+    <option name="totallyTimeSpent" value="256482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -372,41 +343,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bd_tables/tb_mapeos.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bd_tables/tb_informaciones.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bd_tables/tb_usuarios.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/admin/datos_usuario_sesion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientes/controller_registrar_clientes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/roles/controller_asignar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -439,13 +375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/admin/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="261" column="72" selection-start-line="261" selection-start-column="72" selection-end-line="261" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -629,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usuarios/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="89" column="16" lean-forward="true" selection-start-line="81" selection-start-column="11" selection-end-line="89" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usuarios/generar-reporte.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -720,13 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/precios/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="81" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/precios/generar-reporte.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -739,6 +654,62 @@
             <element signature="n#style#0;n#td#2;n#tr#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#3;n#tr#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/precios/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="81" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/controller_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templeates/AdminLTE-3.0.5/pages/examples/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="26" lean-forward="true" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usuarios/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/admin/datos_usuario_sesion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/admin/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="396" column="25" selection-start-line="396" selection-start-column="25" selection-end-line="396" selection-end-column="25" />
         </state>
       </provider>
     </entry>
